@@ -1,0 +1,32 @@
+{
+  "name": "limn-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "15.5.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "@supabase/supabase-js": "^2.56.0",
+    "@supabase/ssr": "^0.7.0",
+    "lucide-react": "^0.542.0",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^3.3.1",
+    "sonner": "^2.0.7",
+    "date-fns": "^4.1.0",
+    "recharts": "^3.1.2",
+    "@tanstack/react-query": "^5.85.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.13",
+    "@types/react": "^18.3.24",
+    "@types/react-dom": "^18.3.7",
+    "typescript": "^5",
+    "tailwindcss": "^4",
+    "@tailwindcss/postcss": "^4"
+  }
+}
